@@ -1,0 +1,19 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "python-template"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyttk" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyttk", specifier = ">=0.3.2" }]
+
+[[package]]
+name = "pyttk"
+version = "0.3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5e/0b/58e706161ea187f24b1f8371b9953d96d911b4f55fccc6d4116e7623b1b4/pyttk-0.3.2.tar.gz", hash = "sha256:5ac911938d0b08280432badc0b46f4dbc37c5567364191a9374a7b654c4f6d02", size = 127263 }
